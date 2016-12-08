@@ -1,0 +1,12 @@
+/* Empty. Add your own CSS if you like */
+#view .tabs-assertive{background: rgba(0,0,0,0.1);}
+a{text-decoration: none;}
+#viewto .title{font: bolder 18px/24px "宋体";}
+.lianjie{display:block;font:14px/36px "宋体";color:#000;height: 36px;padding-left:18px;box-shadow: 0 3px 2px rgba(0,0,0,0.5) inset;}
+#example .ion-chevron-left{background: rgba(0,0,0,0);border:none;color:red;position: absolute;left:15px;top:-10px;z-index: 5}
+#example .suspend{position: fixed;bottom: -44px;left:0;width:100%;height:44px;background: #000;}
+
+
+
+
+

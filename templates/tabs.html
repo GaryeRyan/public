@@ -1,0 +1,48 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top tabs-dark">
+
+  <!-- Dashboard Tab -->
+  <ion-tab title="介绍" icon-off="ion-home" icon-on="ion-home" href="#/tab/dash">
+    <ion-nav-view name="tab-dash"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Chats Tab -->
+  <ion-tab title="丽景" icon-off="ion-image" icon-on="ion-image" href="#/tab/chats">
+    <ion-nav-view name="tab-chats"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Account Tab -->
+  <ion-tab title="全景" icon-off="ion-aperture" icon-on="ion-aperture" href="#/tab/account">
+    <ion-nav-view name="tab-account"></ion-nav-view>
+  </ion-tab>
+
+  <!-- activity Tab -->
+  <ion-tab title="活动" icon-off="ion-social-codepen" icon-on="ion-social-codepen" href="#/tab/activity">
+    <ion-nav-view name="tab-activity"></ion-nav-view>
+  </ion-tab>
+
+
+</ion-tabs>
+<!--<ion-tabs class="tabs-dark tabs-icon-top">
+  <ion-tab title="介绍" ui-sref="home.auto"
+           icon-on="ion-home" icon-off="ion-home">
+    &lt;!&ndash;改为命名的navView&ndash;&gt;
+    <ion-nav-view name="home-auto"></ion-nav-view>
+  </ion-tab>
+  <ion-tab title="丽景" ui-sref="home.view"
+           icon-on="ion-image" icon-off="ion-image">
+    <ion-nav-view name="home-view"></ion-nav-view>
+  </ion-tab>
+  <ion-tab title="全景" badge-style="badge-positive"
+           ui-sref="tabs.cart" icon="icon ion-aperture">
+    <ion-nav-view name="tab-cart"></ion-nav-view>
+  </ion-tab>
+  <ion-tab title="活动" badge-style="badge-positive"
+           ui-sref="tabs.c" icon="icon ion-social-codepen">
+    <ion-nav-view name="tab-c"></ion-nav-view>
+  </ion-tab>
+</ion-tabs>-->
